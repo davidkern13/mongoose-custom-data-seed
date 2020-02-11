@@ -66,18 +66,28 @@ ProductsSchema - mongoose schema
 createSeeder/dropDatabase - string
 ```
 
+## Make seeder
+
+got to your_seed_file.js path & run command 
+
+```
+node your_seed_file.js
+```
+
+
 ## Seed - index.js
 
 ----------------------------------------------------------------------------------------------
 
-`/**
+/**
+
  * seed function to manage case by options type.
  * @function seed
  * @param {data} postData - Array of objects to post into schema
  * @param {schema} schema - Schema of mongoose db
  * @param {options} postData - Type of case call
  * @returns {Promise}
- */`
+ */
 ```
 const seed = (data = {}, schema, options = '') => {
     switch (options) {
@@ -100,6 +110,7 @@ const seed = (data = {}, schema, options = '') => {
  * @param {data} postData - Array of objects to post into schema
  * @param {schema} schema - Schema of mongoose db
  * @returns {Promise}
+ 
  */
  
  ```
@@ -121,6 +132,7 @@ const seed = (data = {}, schema, options = '') => {
  * @function dropDatabase
  * @param {schema} schema - Schema of mongoose db
  * @returns {Promise}
+ 
  */
  ```
 const dropDatabase = (schema) => {
