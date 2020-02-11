@@ -15,7 +15,7 @@ const ProductsSchema = require('../models/productShema/products');
 - import the seed function
 
 ```
-const { seed } = require('./index.js');
+const { seed } = require('./');
 ```
 
 - create custom data to seed
