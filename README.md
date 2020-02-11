@@ -2,7 +2,9 @@
 
 Nodejs create custon seeders for mongoose schemas
 
-#your_seed_file.js
+##your_seed_file.js
+
+----------------------------------------------------------------------------------------------
 
 import your schema
 
@@ -61,8 +63,9 @@ ProductsSchema - mongoose schema
 createSeeder/dropDatabase - string
 ```
 
-#Seed - index.js
+##Seed - index.js
 
+----------------------------------------------------------------------------------------------
 
 /**
  * seed function to manage case by options type.
