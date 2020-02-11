@@ -2,7 +2,7 @@
 
 - Nodejs create custon seeders for mongoose schemas
 
-## your_seed_file.js
+# your_seed_file.js
 
 ----------------------------------------------------------------------------------------------
 
@@ -66,13 +66,17 @@ ProductsSchema - mongoose schema
 createSeeder/dropDatabase - string
 ```
 
-## Make seeder
+# Make seeder
 
 got to your_seed_file.js path & run command 
 
 ```
 node your_seed_file.js
 ```
+
+![config](https://www.imageupload.net/upload-image/2020/02/11/Capturebbbbn.png)
+
+Its work 🎉🎉🎉🎉. 
 
 
 ## Seed - index.js
@@ -154,3 +158,6 @@ module.exports = {
     seed
 }
 ```
+
+Enjoy Thank you,
+David Kern
