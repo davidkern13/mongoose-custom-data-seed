@@ -1,6 +1,6 @@
 ## Mongoose custom data seed - Nodejs
 
-- ### Nodejs create custon seeders for mongoose schemas
+- ### Nodejs create custom seeders for mongoose schemas
 
 ### your_seed_file.js
 
