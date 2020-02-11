@@ -82,6 +82,9 @@ node your_seed_file.js
 
 Its work 🎉🎉🎉🎉. 
 
+- You can add/edit code,comments and so on. 
+- You can use this example idea to create a npm library.
+- I will often add more code and update.
 
 ### Seed - index.js
 
