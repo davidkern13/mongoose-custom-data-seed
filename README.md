@@ -62,7 +62,7 @@ seed(null, ProductsSchema, 'dropDatabase').then( result => {
 
 ## Types
 
-- Types of function @param
+- Types of function @args
 
 ```
 data - array of objects
