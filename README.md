@@ -6,19 +6,19 @@
 
 ----------------------------------------------------------------------------------------------
 
-import your schema
+- import your schema
 
 ```
 const ProductsSchema = require('../models/productShema/products');
 ```
 
-import the seed function
+- import the seed function
 
 ```
-const { seed} = require('./index.js');
+const { seed } = require('./index.js');
 ```
 
-create custom data to seed
+- create custom data to seed
 
 ```
 const data = [
@@ -56,7 +56,10 @@ seed(null, ProductsSchema, 'dropDatabase').then(function(result) {
 });
 ```
 
-Types
+## Types
+
+- Types of function @param
+
 ```
 data - array of objects
 ProductsSchema - mongoose schema
@@ -133,7 +136,7 @@ const dropDatabase = (schema) => {
 }
 ```
 
-export 
+- export 
 ```
 module.exports = {
     seed
