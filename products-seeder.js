@@ -1,5 +1,5 @@
 const ProductsSchema = require('../models/productShema/products');
-const { seed} = require('./index.js');
+const { seed} = require('./');
 
 const data = [
    {
