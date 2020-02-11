@@ -80,7 +80,7 @@ node your_seed_file.js
 
 ![config](https://www.imageupload.net/upload-image/2020/02/11/Capturebbbbn.png)
 
-Its work 🎉🎉🎉🎉. 
+Its works 🎉🎉🎉🎉. 
 
 - You can add/edit code,comments and so on. 
 - You can use this example idea to create a npm library.
