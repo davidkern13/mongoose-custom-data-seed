@@ -70,14 +70,14 @@ createSeeder/dropDatabase - string
 
 ----------------------------------------------------------------------------------------------
 
-/**
+`/**
  * seed function to manage case by options type.
  * @function seed
  * @param {data} postData - Array of objects to post into schema
  * @param {schema} schema - Schema of mongoose db
  * @param {options} postData - Type of case call
  * @returns {Promise}
- */
+ */`
 ```
 const seed = (data = {}, schema, options = '') => {
     switch (options) {
