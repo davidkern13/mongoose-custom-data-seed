@@ -25,14 +25,18 @@ const data = [
 /*
 * Seed {createSeeder} - Post data into schema
 */
-seed(data, ProductsSchema, 'createSeeder').then(function(result) {
+seed(data, ProductsSchema, 'createSeeder').then( result => {
     console.log('createSeeder', result);
+}).catch( e => {
+    console.log('createSeeder', e)
 });
 
 /*
 * Seed {dropDatabase} - Delete all data from schema
 */
-seed(null, ProductsSchema, 'dropDatabase').then(function(result) {
+seed(null, ProductsSchema, 'dropDatabase').then( result => {
     console.log('dropDatabase', result);
+}).catch( e => {
+    console.log('dropDatabase', e)
 });
 
