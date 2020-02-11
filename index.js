@@ -16,7 +16,7 @@ const seed = (data = {}, schema, options = '') => {
             return dropDatabase(schema);
             break;
         default:
-            return new Promise((reject) => {reject('options data object incorrect or not selected options')});
+            return new Promise((reject) => {reject('options not selected')});
             break;
     }
 };
